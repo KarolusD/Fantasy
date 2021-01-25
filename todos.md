@@ -1,0 +1,3 @@
+- [ ] Grab statistics of all players every round
+- [ ] Discover when particular round will begin
+- [ ] Hold all rounds history in database
