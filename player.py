@@ -13,4 +13,5 @@ class Player:
         self.player_position = player_position
         self.player_cost = player_cost
         self.player_selected_by = player_selected_by
+        self.player_form = player_form
         self.player_total_points = player_total_points
