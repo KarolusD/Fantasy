@@ -1,14 +1,12 @@
+from helpers import get_all_players, write_players_to_xlsx
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
+from webdriver import driver
+from flask import Flask
 import lxml  # noqa
 
-from flask import Flask
-
-from webdriver import driver
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-
-from helpers import get_all_players, write_players_to_xlsx
 
 app = Flask(__name__)
 
